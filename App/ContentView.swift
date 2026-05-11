@@ -6,7 +6,6 @@ struct ContentView: View {
     @Query private var courses: [Course]
     @State private var selectedTab = 0
     @State private var showAddCourse = false
-    @State private var showImageImport = false
 
     var body: some View {
         TabView(selection: $selectedTab) {
@@ -14,14 +13,7 @@ struct ContentView: View {
                 TimetableView()
                     .toolbar {
                         ToolbarItem(placement: .navigationBarTrailing) {
-                            Menu {
-                                Button(action: { showAddCourse = true }) {
-                                    Label("手动添加课程", systemImage: "square.and.pencil")
-                                }
-                                Button(action: { showImageImport = true }) {
-                                    Label("从图片导入", systemImage: "photo.on.rectangle")
-                                }
-                            } label: {
+                            Button(action: { showAddCourse = true }) {
                                 Image(systemName: "plus")
                             }
                         }
@@ -33,18 +25,24 @@ struct ContentView: View {
             .tag(0)
 
             NavigationStack {
+                ImageImportView()
+            }
+            .tabItem {
+                Label("导入", systemImage: "photo.on.rectangle")
+            }
+            .tag(1)
+
+            NavigationStack {
                 CourseListView()
             }
             .tabItem {
                 Label("课程", systemImage: "list.bullet")
             }
-            .tag(1)
+            .tag(2)
         }
+        .tint(DesignTokens.primary)
         .sheet(isPresented: $showAddCourse) {
             CourseEditView()
-        }
-        .sheet(isPresented: $showImageImport) {
-            ImageImportView()
         }
     }
 }

@@ -48,8 +48,8 @@ struct CourseRow: View {
 
     var body: some View {
         HStack(spacing: 12) {
-            RoundedRectangle(cornerRadius: 6)
-                .fill(course.color.opacity(0.3))
+            RoundedRectangle(cornerRadius: DesignTokens.radiusTag)
+                .fill(course.color.opacity(0.25))
                 .frame(width: 4, height: 40)
 
             VStack(alignment: .leading, spacing: 2) {
@@ -58,17 +58,17 @@ struct CourseRow: View {
                     .fontWeight(.medium)
                 Text("\(course.teacher) · \(course.location)")
                     .font(.caption)
-                    .foregroundStyle(.secondary)
+                    .foregroundStyle(DesignTokens.textSecondary)
             }
 
             Spacer()
 
             Text("第 \(course.startPeriod)-\(course.startPeriod + course.duration - 1) 节")
                 .font(.caption2)
-                .foregroundStyle(.secondary)
+                .foregroundStyle(DesignTokens.textSecondary)
                 .padding(.horizontal, 8)
                 .padding(.vertical, 2)
-                .background(Color(.systemGray6))
+                .background(DesignTokens.secondary.opacity(0.15))
                 .clipShape(Capsule())
         }
         .padding(.vertical, 2)

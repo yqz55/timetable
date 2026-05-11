@@ -52,7 +52,7 @@ struct CourseDetailView: View {
             }
         }
         .sheet(isPresented: $showEdit) {
-            CourseEditView()
+            CourseEditView(editingCourse: course)
         }
     }
 }

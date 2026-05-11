@@ -24,7 +24,7 @@ final class Course {
         dayOfWeek: Int = 1,
         startPeriod: Int = 1,
         duration: Int = 2,
-        colorHex: String = "#4A90D9",
+        colorHex: String = "#2D5E3A",
         notes: String = ""
     ) {
         self.id = id
@@ -45,9 +45,9 @@ final class Course {
     }
 
     static let defaultColors = [
-        "#4A90D9", "#E74C3C", "#2ECC71", "#F39C12",
-        "#9B59B6", "#1ABC9C", "#E67E22", "#3498DB",
-        "#E91E63", "#00BCD4"
+        "#2D5E3A", "#4A8C5E", "#7AB890", "#9BC4A3",
+        "#5B8C5A", "#3D6B4F", "#8B7E74", "#C4A882",
+        "#6B8F71", "#A3B5A6"
     ]
 
     static let weekdays = ["周一", "周二", "周三", "周四", "周五", "周六", "周日"]
@@ -69,4 +69,21 @@ extension Color {
             blue: Double(rgb & 0xFF) / 255.0
         )
     }
+}
+
+enum DesignTokens {
+    static let background = Color(hex: "#F5F3EE")
+    static let surface = Color(hex: "#FFFFFF")
+    static let primary = Color(hex: "#2D5E3A")
+    static let secondary = Color(hex: "#4A8C5E")
+    static let textPrimary = Color(hex: "#1B3A28")
+    static let textSecondary = Color(hex: "#4A6B52")
+    static let textTertiary = Color(hex: "#9AB0A0")
+    static let border = Color(hex: "#D5D9D3")
+    static let success = Color(hex: "#34C759")
+    static let warning = Color(hex: "#FF9500")
+
+    static let radiusCard: CGFloat = 6
+    static let radiusTag: CGFloat = 4
+    static let shadowSm: (color: Color, radius: CGFloat, x: CGFloat, y: CGFloat) = (.black.opacity(0.04), 3, 0, 1)
 }

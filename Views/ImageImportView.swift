@@ -21,10 +21,10 @@ struct ImageImportView: View {
                         .resizable()
                         .scaledToFit()
                         .frame(maxHeight: 300)
-                        .clipShape(RoundedRectangle(cornerRadius: 12))
+                        .clipShape(RoundedRectangle(cornerRadius: DesignTokens.radiusCard))
                         .overlay(
-                            RoundedRectangle(cornerRadius: 12)
-                                .stroke(Color(.separator), lineWidth: 1)
+                            RoundedRectangle(cornerRadius: DesignTokens.radiusCard)
+                                .stroke(DesignTokens.border, lineWidth: 1)
                         )
 
                     if isProcessing {
@@ -32,7 +32,7 @@ struct ImageImportView: View {
                             ProgressView()
                             Text("正在识别课表...")
                                 .font(.subheadline)
-                                .foregroundStyle(.secondary)
+                                .foregroundStyle(DesignTokens.textSecondary)
                         }
                         .padding()
                     } else if !recognizedCourses.isEmpty {
@@ -49,13 +49,13 @@ struct ImageImportView: View {
                     VStack(spacing: 24) {
                         Image(systemName: "photo.on.rectangle.angled")
                             .font(.system(size: 60))
-                            .foregroundStyle(.secondary)
+                            .foregroundStyle(DesignTokens.textSecondary)
                         Text("选择一张课表图片")
                             .font(.title3)
-                            .foregroundStyle(.secondary)
+                            .foregroundStyle(DesignTokens.textSecondary)
                         Text("支持识别课程名称、时间、地点和教师信息")
                             .font(.caption)
-                            .foregroundStyle(.tertiary)
+                            .foregroundStyle(DesignTokens.textTertiary)
 
                         PhotosPicker(
                             selection: $selectedItem,
@@ -139,7 +139,7 @@ struct ImageImportView: View {
                 dayOfWeek: recognized.dayOfWeek,
                 startPeriod: recognized.startPeriod,
                 duration: recognized.duration,
-                colorHex: Course.defaultColors.randomElement() ?? "#4A90D9"
+                colorHex: Course.defaultColors.randomElement() ?? "#2D5E3A"
             )
             modelContext.insert(course)
         }
@@ -179,7 +179,7 @@ struct RecognizedCourseRow: View {
                 TextField("地点", text: $course.location)
             }
             .font(.caption)
-            .foregroundStyle(.secondary)
+            .foregroundStyle(DesignTokens.textSecondary)
 
             HStack {
                 Picker("开始节次", selection: $course.startPeriod) {

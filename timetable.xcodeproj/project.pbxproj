@@ -9,29 +9,43 @@
 /* Begin PBXBuildFile section */
 		0FC9A6656FA2D43997C312FA /* CourseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5B527A5E5449ACD20CE959 /* CourseDetailView.swift */; };
 		1E096BFD0FB762755CE751D7 /* CourseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26926A948AE82C3F0613212 /* CourseListView.swift */; };
-		2B4501FC85394B675450F682 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5057991394FEE6D391D23EF6 /* StorageService.swift */; };
+		1F965143F0383466A3184BDB /* pencil-new.pen in Resources */ = {isa = PBXBuildFile; fileRef = 897675C48534C67E30EDF829 /* pencil-new.pen */; };
 		2BEF6A8DCB42B2276BE4FD2B /* ImageParserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354D119CB9CE1AD62574A728 /* ImageParserService.swift */; };
+		3389E727FA381D22480B0DDD /* timetable.xcodeproj in Resources */ = {isa = PBXBuildFile; fileRef = 97482B5611A49C9B8B95BE25 /* timetable.xcodeproj */; };
 		3ABBE5225EAEC94AC208B731 /* TimetableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9474F01779186C6F45F8E031 /* TimetableViewModel.swift */; };
 		42B8941442363F3EDB271E81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB0CFDBCB5437E233426A71 /* ContentView.swift */; };
+		74CF91EE2E404B31B76A4E71 /* timetable-zigzag.pen in Resources */ = {isa = PBXBuildFile; fileRef = C10EF826FAB353782F7F2481 /* timetable-zigzag.pen */; };
+		7AC95DF3DF53132EF827EC52 /* x0C0R.png in Resources */ = {isa = PBXBuildFile; fileRef = 20E9D832ABE8CC2600754C6B /* x0C0R.png */; };
 		82A51FCFB981A325149B0482 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186A73D59C9D9EAAD2129D37 /* Course.swift */; };
+		8868169861D7FBFD9458D736 /* settings.local.json in Resources */ = {isa = PBXBuildFile; fileRef = 399BC1096C263C00310C9EE5 /* settings.local.json */; };
+		AC1490A4EB8DCC8C10A4D86B /* CLAUDE.md in Resources */ = {isa = PBXBuildFile; fileRef = 2043E4F197BC5ACAD881CD3E /* CLAUDE.md */; };
+		C2995C5E0F680D2F11CB370E /* eO5mt.png in Resources */ = {isa = PBXBuildFile; fileRef = 94B3B217882B8A6A55072DF7 /* eO5mt.png */; };
 		D5CB1CB08DE9E2F4169DA0C2 /* CourseEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84CB92B598C9E3482A31DDF /* CourseEditView.swift */; };
 		E1F4D5715D5F57FD381C1142 /* TimetableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E2EB9421FFB20D77BF9655 /* TimetableView.swift */; };
 		EE7EF6B17F69AAC055CF6ACD /* TimetableApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755524038716E516F9108A00 /* TimetableApp.swift */; };
+		F75EE1CD7E61A39A2513B84B /* SDUk9.png in Resources */ = {isa = PBXBuildFile; fileRef = 08053C9DAA7C82A668B1042E /* SDUk9.png */; };
 		FC9E7668C0B8597B87573553 /* ImageImportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854B3FA46CD733A7916C3A11 /* ImageImportView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08053C9DAA7C82A668B1042E /* SDUk9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SDUk9.png; sourceTree = "<group>"; };
 		186A73D59C9D9EAAD2129D37 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		2043E4F197BC5ACAD881CD3E /* CLAUDE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CLAUDE.md; sourceTree = "<group>"; };
+		20E9D832ABE8CC2600754C6B /* x0C0R.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x0C0R.png; sourceTree = "<group>"; };
 		354D119CB9CE1AD62574A728 /* ImageParserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageParserService.swift; sourceTree = "<group>"; };
-		5057991394FEE6D391D23EF6 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		399BC1096C263C00310C9EE5 /* settings.local.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = settings.local.json; sourceTree = "<group>"; };
 		5E5B527A5E5449ACD20CE959 /* CourseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseDetailView.swift; sourceTree = "<group>"; };
 		5FB0CFDBCB5437E233426A71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		68E2EB9421FFB20D77BF9655 /* TimetableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableView.swift; sourceTree = "<group>"; };
 		755524038716E516F9108A00 /* TimetableApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableApp.swift; sourceTree = "<group>"; };
 		854B3FA46CD733A7916C3A11 /* ImageImportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageImportView.swift; sourceTree = "<group>"; };
+		897675C48534C67E30EDF829 /* pencil-new.pen */ = {isa = PBXFileReference; path = "pencil-new.pen"; sourceTree = "<group>"; };
 		9474F01779186C6F45F8E031 /* TimetableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableViewModel.swift; sourceTree = "<group>"; };
+		94B3B217882B8A6A55072DF7 /* eO5mt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eO5mt.png; sourceTree = "<group>"; };
+		97482B5611A49C9B8B95BE25 /* timetable.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = timetable.xcodeproj; sourceTree = "<group>"; };
 		A26926A948AE82C3F0613212 /* CourseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseListView.swift; sourceTree = "<group>"; };
 		A84CB92B598C9E3482A31DDF /* CourseEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseEditView.swift; sourceTree = "<group>"; };
+		C10EF826FAB353782F7F2481 /* timetable-zigzag.pen */ = {isa = PBXFileReference; path = "timetable-zigzag.pen"; sourceTree = "<group>"; };
 		E891F36DB4E864838F627D10 /* timetable.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = timetable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -48,7 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				354D119CB9CE1AD62574A728 /* ImageParserService.swift */,
-				5057991394FEE6D391D23EF6 /* StorageService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -62,6 +75,18 @@
 			path = App;
 			sourceTree = "<group>";
 		};
+		5249A3D603D18C1A89284B6F /* designs */ = {
+			isa = PBXGroup;
+			children = (
+				94B3B217882B8A6A55072DF7 /* eO5mt.png */,
+				897675C48534C67E30EDF829 /* pencil-new.pen */,
+				08053C9DAA7C82A668B1042E /* SDUk9.png */,
+				C10EF826FAB353782F7F2481 /* timetable-zigzag.pen */,
+				20E9D832ABE8CC2600754C6B /* x0C0R.png */,
+			);
+			path = designs;
+			sourceTree = "<group>";
+		};
 		814DBB6C8CE774137A3C9139 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -73,7 +98,9 @@
 		A09ADA2CE0681223E9CA07B9 = {
 			isa = PBXGroup;
 			children = (
+				E1073BE3B8C7ABA43C77D037 /* .claude */,
 				496FDE58225B9AA23E8C4DAA /* App */,
+				5249A3D603D18C1A89284B6F /* designs */,
 				814DBB6C8CE774137A3C9139 /* Models */,
 				370F849AF619C3AEF599626C /* Services */,
 				EED0F0A41C454463C1CADA3B /* timetable */,
@@ -103,10 +130,22 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		E1073BE3B8C7ABA43C77D037 /* .claude */ = {
+			isa = PBXGroup;
+			children = (
+				399BC1096C263C00310C9EE5 /* settings.local.json */,
+			);
+			path = .claude;
+			sourceTree = "<group>";
+		};
 		EED0F0A41C454463C1CADA3B /* timetable */ = {
 			isa = PBXGroup;
 			children = (
+				2043E4F197BC5ACAD881CD3E /* CLAUDE.md */,
+				97482B5611A49C9B8B95BE25 /* timetable.xcodeproj */,
+				E1073BE3B8C7ABA43C77D037 /* .claude */,
 				496FDE58225B9AA23E8C4DAA /* App */,
+				5249A3D603D18C1A89284B6F /* designs */,
 				814DBB6C8CE774137A3C9139 /* Models */,
 				370F849AF619C3AEF599626C /* Services */,
 				BD2C110394B980DD9F24A0A8 /* ViewModels */,
@@ -125,6 +164,7 @@
 			buildPhases = (
 				FCB0679D3F0F430814B8D359 /* SwiftLint */,
 				6A1C4664BF151FBCD552A417 /* Sources */,
+				F7149B335A5012A3728C57FB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -167,6 +207,24 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		F7149B335A5012A3728C57FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1490A4EB8DCC8C10A4D86B /* CLAUDE.md in Resources */,
+				F75EE1CD7E61A39A2513B84B /* SDUk9.png in Resources */,
+				C2995C5E0F680D2F11CB370E /* eO5mt.png in Resources */,
+				1F965143F0383466A3184BDB /* pencil-new.pen in Resources */,
+				8868169861D7FBFD9458D736 /* settings.local.json in Resources */,
+				74CF91EE2E404B31B76A4E71 /* timetable-zigzag.pen in Resources */,
+				3389E727FA381D22480B0DDD /* timetable.xcodeproj in Resources */,
+				7AC95DF3DF53132EF827EC52 /* x0C0R.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXShellScriptBuildPhase section */
 		FCB0679D3F0F430814B8D359 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -201,7 +259,6 @@
 				1E096BFD0FB762755CE751D7 /* CourseListView.swift in Sources */,
 				FC9E7668C0B8597B87573553 /* ImageImportView.swift in Sources */,
 				2BEF6A8DCB42B2276BE4FD2B /* ImageParserService.swift in Sources */,
-				2B4501FC85394B675450F682 /* StorageService.swift in Sources */,
 				EE7EF6B17F69AAC055CF6ACD /* TimetableApp.swift in Sources */,
 				E1F4D5715D5F57FD381C1142 /* TimetableView.swift in Sources */,
 				3ABBE5225EAEC94AC208B731 /* TimetableViewModel.swift in Sources */,
